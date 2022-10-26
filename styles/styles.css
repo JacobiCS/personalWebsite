@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+/* ©2021 Nicholas Jacobi | Jacobi Creative Services L.L.C. */
+/* Most of this CSS is unused and just a relic from older sites */
+
+body {	
+	margin: 0;
+	padding: 0;
+	text-align: center; /* Fixes IE Bug, if that's still a thing*/
+	background-color: #212121;
+	}
+#banner {
+	background-color: #FFF;
+	height: 129px;
+	width: 948px;
+	}
+#headline {
+	background-image:url(../images/jacobi_banner.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #FFF;
+	margin-left: 10px;
+	height: 129px;
+	width: 601px;
+	}
+#headline span { 
+	/* Hides Text and displays only the Banner Img */
+	visibility: hidden;
+	}
+#wrapper {
+	/* Disabled //background-image:url(../images/wrapper_bckgrnd.gif); */
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	width: 948px;
+	text-align: left;
+	position: relative;
+	background-color: #FFF;
+	/* Disabled // box-shadow: -10px 0px 15px #bf1e2d, 10px 0px 15px #bf1e2d; */
+	font-family: 'Trebuchet MS';
+	}
+/* ========================= */
+/* Navigation Bar Formatting */
+/* ========================= */
+#navbar {
+	background-image: url(../images/navigradient2.gif);
+	background-repeat: repeat-x;
+	width: 948px;
+	height: 25px;
+	}
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	}
+a {
+	text-decoration: none;
+	}
+a, a:visited{
+    color:#bf1e2d;
+	}
+a:hover {
+	color: #7d7c7c;
+	}
+a:active {
+	color: #212121;
+	}
+#navbar ul {
+	margin-top: 0px;
+	padding-top: 3px;
+	text-align: center;
+	}
+#navbar li {
+	display: inline;
+	}
+.svg_image { /* Aligns Twitter SVG */
+	margin-top: -7px;
+}
+#navbar a {
+	font-family: eurostile, Tahoma, Arial;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	margin: 0 20px;
+	padding: 0px 4px;
+	text-transform: uppercase;
+	}
+.img_arrow {
+	margin: 2px 22px;
+	padding: 0;
+	}
+#navbar a:hover {
+	color: #bf1e2d;
+	}	
+#navbar a.current {
+	color: white;
+	border-top: 1px dotted white;
+	border-bottom: 1px dotted white;
+	}
+/* ======================= */
+/* Main Content Formatting */
+/* ======================= */
+#main {
+	background-color: #FFF;
+	margin-left: 242px;
+	margin-right: 242px;
+	padding-top: 10px;
+	width: 464px;
+	}
+h1, h2 {
+	text-align: left;
+	margin: 0;
+	font-family: eurostile, Tahoma, Arial;
+	color: #bf1e2d;
+	font-size: 22px;
+	}
+h2 a, a:visited{
+	color:#bf1e2d;
+	}
+h2 a:hover {
+	color: #7d7c7c;
+	}
+h2 a:active {
+	color: #212121;
+	}
+hr {
+	color: #bf1e2d;
+	text-align: center;
+	overflow: visible;
+	border: none;
+	border-top: 1px dotted #bf1e2d;
+	border-bottom: 2px dotted #bf1e2d;
+	width: 90%;
+	}
+#leftnav {
+	position: absolute;
+	top: 195px;
+	left: 0;
+	width: 222px;
+	height: 500px;
+	}
+#footer { 
+	height: 20px;
+	text-align: center;
+	color: #212529;
+	background-color: #bab9b9;
+	width: 100;
+	line-height: -15px;
+	}
+#footer a:link {
+	color: #7d7c7c;
+	margin: 0 20px;
+	}
+#footer a:visited {
+	color: #7d7c7c;
+	}
+#footer a:hover {
+	color: #ffffff;
+	}
+#footer a:active {
+	color: #ffffff;
+	}
+#rightcol {
+	width: 222px;
+	position: absolute;
+	top: 195px;
+	right: 0;
+	}
+strong {
+	color: #bf1e2d;
+	font-size: 14px;
+	}	
+.right_img {
+	float: right;
+	padding-left: 12px;
+	}	
+.left_img {
+	float: left;
+	padding-right: 7px;
+	}	
+#navbackground{
+		background-color: #212529;
+		display: inline-table;
+	}
+#whitebody{
+		background-color: #fff;
+	}
+.hidden{
+	display: none;
+}
+/* ========================= */
+/* Disabled .citation {
+	font-family: 'Times New Roman', Georgia, serif;
+	}
+.citation a:link {
+	color: #000000;
+	text-decoration: none;
+	}
+.citation a:visited {
+	color: #000000;
+	text-decoration: none;
+	}
+.citation a:hover {
+	color: #7d7c7c;
+	text-decoration: underline;
+	}
+.citation a:active {
+	color: #7d7c7c;
+	text-decoration: underline;
+	} */
